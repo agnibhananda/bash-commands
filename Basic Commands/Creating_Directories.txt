@@ -1,0 +1,5 @@
+mkdir foo                        # Create a directory
+mkdir foo bar                    # Create multiple directories
+mkdir -p foo/bar                 # Create nested directory
+mkdir -p {foo,bar}/baz           # Create multiple nested directories
+mktemp -d                        # Create a temporary directory

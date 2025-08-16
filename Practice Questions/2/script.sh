@@ -1,5 +1,4 @@
 #!/bin/bash
-
 total_bill=0
 
 while IFS= read -r line; do
